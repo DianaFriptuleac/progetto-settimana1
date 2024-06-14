@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2rem;
+    color:#393d41;
+    line-height: 1.65;
+
+}
+.logo{
+    background-color: black;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+.logo img{
+    width: 30%;
+}
+.text-header{
+    background-image: url(../img/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px;
+   text-align: center;
+   
+
+}
+h1,h2{
+    font-family: "Montserrat", sans-serif;
+    color: #25a2c3;
+    line-height: 1;
+}
+.text-header a{
+font-family: "Montserrat", sans-serif;
+background-color: #f04c2f;
+padding: 15px 30px ;
+border-radius: 5px;
+color: white;
+text-decoration: none;
+font-weight: 200;
+
+}
+.text-header p{
+    padding-bottom: 1.8em;
+}
+header{
+    margin-bottom: 20px;
+}
+.article h2{
+font-size:1.1em;
+padding-bottom: 15px;
+
+}
+.article{
+    text-align: center;
+    padding: 40px;
+    
+}
+ .cerchio{
+    background-image: url(../img/foto1.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+
+    margin: 0 auto;
+    
+ }
