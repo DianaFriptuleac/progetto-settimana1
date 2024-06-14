@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-
 *{
     margin:0;
     padding:0;
@@ -45,8 +44,12 @@ text-decoration: none;
 font-weight: 200;
 
 }
+h1{
+    margin-bottom: 18px;
+}
 .text-header p{
-    padding-bottom: 1.8em;
+    padding:10px 10px 20px 10px;
+    margin: 0px 10px 10px 10px;
 }
 header{
     margin-bottom: 20px;
@@ -54,8 +57,12 @@ header{
 .article h2{
 font-size:1.1em;
 padding-bottom: 15px;
-
 }
+.article p{
+margin:0px 12px;
+}
+
+
 .article{
     text-align: center;
     padding: 40px;
@@ -76,10 +83,10 @@ padding-bottom: 15px;
     text-align: center;
     padding-bottom: 1.2em;
  }
- h4{
+  aside h4, footer h4{
     font-size:2.3em;
     padding-top: 1.4em;
-    margin-bottom: 1.1em;
+    margin-bottom: 1em;
     font-weight: 700;
  }
  cite{
@@ -88,7 +95,7 @@ padding-bottom: 15px;
   line-height: 20px;
  }
  .container-autore{
-    margin-top: 2.5em;
+    margin-top: 2.8em;
     margin-bottom: 1.1em;
  }
  .autore{
@@ -113,29 +120,51 @@ padding-bottom: 15px;
     
   }
   .container-img1, .container-img2, .container-img3{
-    background-size: cover;
+   background-size: cover;
    width: 100%;
-   height: 35vh;
-   
+   height: 300px;
+   margin:auto;
+}
 
-  }
-  .cotainer{
-    display: inline-block;
-    margin: 20px;
-    border: 5px solid #dee1e3;
-    
-  }
-  section{
+  .container{
     text-align: center;
-    margin:40px 30px 40px 30px;
+    margin:50px 30px 40px 30px;
     text-align: center;
+    border: 1px solid #dee1e3;
     
     
   }
   .container h2 {
     padding: 40px 0 25px;
+    font-size: 20px;
   }
   .container p{
     margin: 0 30px;
     padding: 0px 10px 30px 10px;
   }
+  footer{
+    background-color: #25a2c3;
+    color: white;
+    text-align: center;
+    
+  }
+  footer ul li{
+    list-style: none;
+    
+  }
+  footer a{
+    color: white;
+  }
+  footer ul{
+    padding-bottom: 2.5em;
+  }
+  footer  p{
+    padding: 25px 0px 20px 0px; 
+  }
+  footer hr{
+    width: 50%;
+    margin: 0 auto;
+    size: 20px;
+  }
+  
+  
