@@ -1,170 +1,202 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-*{
-    margin:0;
-    padding:0;
+
+* {
+    margin: 0;
+    padding: 0;
 }
-body{
+
+body {
     font-family: "Open Sans", sans-serif;
     font-size: 1.2rem;
-    color:#393d41;
+    color: #393d41;
     line-height: 1.65;
 
 }
-.logo{
+
+.logo {
     background-color: black;
     text-align: center;
     margin: 0 auto;
-    padding: 20px;
+    padding: 2em;
 }
-.logo img{
-    width: 30%;
+
+.logo img {
+    width: 35%;
 }
-.text-header{
+
+.text-header {
     background-image: url(../img/banner.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     padding: 50px;
-   text-align: center;
-   
+    text-align: center;
+
 
 }
-h1,h2{
+
+h1,
+h2 {
     font-family: "Montserrat", sans-serif;
     color: #25a2c3;
     line-height: 1;
 }
-.text-header a{
-font-family: "Montserrat", sans-serif;
-background-color: #f04c2f;
-padding: 15px 30px ;
-border-radius: 5px;
-color: white;
-text-decoration: none;
-font-weight: 200;
+
+.text-header a {
+    font-family: "Montserrat", sans-serif;
+    background-color: #f04c2f;
+    padding: 15px 30px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-weight: 200;
 
 }
-h1{
+
+h1 {
     margin-bottom: 18px;
 }
-.text-header p{
-    padding:10px 10px 20px 10px;
+
+.text-header p {
+    padding: 10px 10px 20px 10px;
     margin: 0px 10px 10px 10px;
 }
-header{
+
+header {
     margin-bottom: 20px;
 }
-.article h2{
-font-size:1.1em;
-padding-bottom: 15px;
+
+.article h2 {
+    font-size: 1.1em;
+    padding-bottom: 15px;
 }
-.article p{
-margin:0px 12px;
+
+.article p {
+    margin: 0px 12px;
 }
 
 
-.article{
+.article {
     text-align: center;
     padding: 40px;
-    
+
 }
- .cerchio{
+
+.cerchio {
     background-image: url(../img/notebook.jpg);
     background-size: cover;
     width: 300px;
     height: 300px;
     border-radius: 50%;
     margin: 0 auto;
-    
- }
- aside{
-    background-color:#e22d0e;
-    color:white;
+
+}
+
+aside {
+    background-color: #e22d0e;
+    color: white;
     text-align: center;
     padding-bottom: 1.2em;
- }
-  aside h4, footer h4{
-    font-size:2.3em;
+}
+
+aside h4,
+footer h4 {
+    font-size: 2.3em;
     padding-top: 1.4em;
     margin-bottom: 1em;
     font-weight: 700;
- }
- cite{
-  font-size: 20px;
-  padding: 7px 10px 30px 10px;
-  line-height: 20px;
- }
- .container-autore{
-    margin-top: 2.8em;
-    margin-bottom: 1.1em;
- }
- .autore{
-    font-size: 1.6em;
-
-  
- }
- .CIO{
-   
-    font-size: 1.2em;
- }
- .container-img1{
-   background-image: url(../img/foto1.jpg);
-   
- }
- .container-img2{
-    background-image: url(../img/foto2.jpg);
-   
-  }
-  .container-img3{
-    background-image: url(../img/foto3.jpg);
-    
-  }
-  .container-img1, .container-img2, .container-img3{
-   background-size: cover;
-   width: 100%;
-   height: 300px;
-   margin:auto;
 }
 
-  .container{
+cite {
+    font-size: 20px;
+    padding: 7px 10px 30px 10px;
+    line-height: 20px;
+}
+
+.container-autore {
+    margin-top: 2.8em;
+    margin-bottom: 1.1em;
+}
+
+.autore {
+    font-size: 1.6em;
+
+
+}
+
+.CIO {
+
+    font-size: 1.2em;
+}
+
+.container-img1 {
+    background-image: url(../img/foto1.jpg);
+
+}
+
+.container-img2 {
+    background-image: url(../img/foto2.jpg);
+
+}
+
+.container-img3 {
+    background-image: url(../img/foto3.jpg);
+
+}
+
+.container-img1,
+.container-img2,
+.container-img3 {
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    margin: auto;
+}
+
+.container {
     text-align: center;
-    margin:50px 30px 40px 30px;
+    margin: 50px 30px 40px 30px;
     text-align: center;
     border: 1px solid #dee1e3;
-    
-    
-  }
-  .container h2 {
+
+
+}
+
+.container h2 {
     padding: 40px 0 25px;
     font-size: 20px;
-  }
-  .container p{
+}
+
+.container p {
     margin: 0 30px;
     padding: 0px 10px 30px 10px;
-  }
-  footer{
+}
+
+footer {
     background-color: #25a2c3;
     color: white;
     text-align: center;
-    
-  }
-  footer ul li{
+
+}
+
+footer ul li {
     list-style: none;
-    
-  }
-  footer a{
+}
+
+footer a {
     color: white;
-  }
-  footer ul{
+}
+
+footer ul {
     padding-bottom: 2.5em;
-  }
-  footer  p{
-    padding: 25px 0px 20px 0px; 
-  }
-  footer hr{
+}
+
+footer p {
+    padding: 25px 0px 40px 0px;
+}
+
+footer hr {
     width: 50%;
     margin: 0 auto;
     size: 20px;
-  }
-  
-  
+}
